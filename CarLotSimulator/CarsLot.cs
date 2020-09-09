@@ -4,9 +4,15 @@ using System.Text;
 
 namespace CarLotSimulator
 {
-    class CarsLot
+    public class CarsLot
     {
-        public List<Cars> CarsList = new List<Cars>();
+        public CarsLot()
+        {
+        }
+
+        public static int numberOfCars = 1;
+
+        public List<Cars> Cars = new List<Cars>();
 
     }
 }
